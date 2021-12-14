@@ -11,7 +11,7 @@ define("CONF_DB_NAME", "fullstackphp");
  * PROJECT URLs
  */
 define("CONF_URL_BASE", "https://www.localhost/phptest/fsphplib");
-define("CONF_URL_ADMIN", CONF_URL_BASE . "/admin");
+define("CONF_URL_ADMIN", "/admin");
 
 /**
  * SITE
@@ -80,9 +80,9 @@ define("CONF_IMAGE_QUALITY", ["jpg" => 75, "png" => 5]);
  */
 define("CONF_MAIL_HOST", "smtp.sendgrid.net");
 define("CONF_MAIL_PORT", "587");
-define("CONF_MAIL_USER", "apikey");
-define("CONF_MAIL_PASS", "**************************");
-define("CONF_MAIL_SENDER", ["name" => "Robson V. Leite", "address" => "cursos@upinside.com.br"]);
+define("CONF_MAIL_USER", "viniamorim");
+define("CONF_MAIL_PASS", "1kamikases!");
+define("CONF_MAIL_SENDER", ["name" => "Vinicius Amorim ", "address" => "viniciusamorim.psd@gmail.com"]);
 define("CONF_MAIL_OPTION_LANG", "br");
 define("CONF_MAIL_OPTION_HTML", true);
 define("CONF_MAIL_OPTION_AUTH", true);
